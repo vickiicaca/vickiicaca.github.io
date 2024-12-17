@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: FreeMono, monospace;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+#header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+#header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+#biografia {
+    padding: 2rem;
+    background-color: #131111;
+}
+
+#biografia h1 {
+    font-size: 2.5rem;
+    color: #d1d1d1;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    font-style: italic;
+    color: #bbb;
+}
+
+#biografia p {
+    margin-bottom: 1rem;
+}
+
+#miembros {
+    padding: 2rem;
+    background-color: #0c0c0c;
+}
+
+#miembros h2 {
+    font-size: 2.5rem;
+    color: #d1d1d1;
+    margin-bottom: 1rem;
+}
+
+#miembros h3 {
+    color: #d1d1d1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td {
+	border: 3px solid #0c0c0c;
+	padding: 5px;
+	text-align: center;
+}
+
+#discografia {
+    padding: 2rem;
+    background-color: #0e0d0d;
+}
+
+#discografia h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#discografia h3 {
+    font-size: 2rem;
+    color: #bbb;
+    margin-bottom: 0.5rem;
+}
+
+#discografia ul {
+    list-style-type: none;
+}
+
+#discografia ul li {
+    color: #ddd;
+    margin: 0.5rem 0;
+}
+
+#discografia a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#discografia a:hover {
+    color:rgb(240, 126, 106);
+}
+
+#discografia a:visited {
+    color: rgb(255, 73, 41);
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    color: #bbb;
+}
+
+#footer p {
+    font-size: 1rem;
+}
+
+#contacto a {
+    color: #bb1e13;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    color: #ccc;
+}
